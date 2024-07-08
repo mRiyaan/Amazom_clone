@@ -9,3 +9,20 @@
     height: 60px;
     color: #fff;
 }
+.navlogo{
+    height: 50px;
+    width: 110px;
+    padding-top: 3px;
+    border: 2px solid transparent;
+    border-radius: 2px;
+}
+.logo{
+    background-image: url(pictures/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.navlogo:hover {
+    border: 2px solid white;
+    border-radius: 5px;
+}
