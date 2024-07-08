@@ -2,3 +2,9 @@
     margin:0;
     border: border-box;
 }
+
+.navbar{
+    background-color: #131921;
+    font-size: 14px;
+    height: 60px;
+}
