@@ -246,11 +246,23 @@
 }
 .panel-list{
     height: 40px;
-    width: 40%;
+    width: 33%;
     display: flex;
     align-items: center;
     justify-content:space-between;
     list-style-type: none;
     color: #fff;
-
+   
+}
+.panel-list li{
+   display: flex;
+   align-items: center;
+   height: 40px;
+   width: fit-content;
+   padding: 0 10px;
+   border: 2px solid transparent;
+}
+.panel-list li:hover{
+   border: 2px solid white;
+   border-radius: 5px;
 }
