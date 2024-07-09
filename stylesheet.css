@@ -214,6 +214,8 @@
     display: flex;
     align-items: center;
    
+   
+   
 }
 .panel-all{
     height: 35px;
@@ -245,7 +247,7 @@
 }
 .panel-list{
     height: 40px;
-    width: 33%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -264,4 +266,30 @@
 .panel-list li:hover{
    border: 2px solid white;
    border-radius: 5px;
+}
+.panel-deals{
+   height: 40px;
+   width: 50%;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+}
+.panel-deals div{
+   display: flex;
+   align-items: center;
+   height: 40px;
+   width: fit-content;
+   border: 2px solid transparent;
+   padding: 0 10px;
+
+}
+.panel-deals div:hover{
+   border: 2px solid white;
+   border-radius: 5px;
+}
+.panel-deals a{
+   text-decoration: none;
+   color: #fff;
+   font-weight: 700;
 }
