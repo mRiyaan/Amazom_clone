@@ -295,7 +295,7 @@
 }
 /**  hero section  **/
 .hero-section{
-   height: 500px;
+   height: 400px;
    background-size: cover;
    background-image: url(pictures/hero_image.jpg);
    display: flex;
@@ -315,4 +315,70 @@
 .hero-message a{
    text-decoration: none;
    color:#00489b;
+}
+/** shoping box content  **/
+
+.shoping-boxes{
+   display: grid;
+  grid-template-columns: 30% 30% 30% ;
+  justify-content: space-evenly;
+   height: 1200px;
+   background-color:#e2e7e7;
+  padding: 1%;
+  
+
+}
+.shoping-boxes div{
+
+   border: 2px solid rgba(29, 53, 78, 0);
+   margin: 5px;
+   border-radius: 5px;
+   background-color: #ffffff;
+   margin: 15px 0 15px 0;
+   align-content: space-evenly;
+}
+.shoping-boxes .box-img {
+   height: 80%;
+   border: none;
+   border-radius: 0;
+   margin: 0;
+
+}
+.shoping-boxes h2{
+   height: 8%;
+   font-size:19px;
+   padding: 3px 0 0 5px;
+}
+.shoping-boxes p{
+   padding: 0 0 0 5px;
+   height: 8%;
+   align-content: center;
+}
+.shoping-boxes a{
+   text-decoration: none;
+   color: #0d6c8b;
+}
+.box-img {
+   height: 100px;
+   max-width: 100%;
+  
+}
+/** footer **/
+.footer-panel1{
+   background-color: #24303e;
+   height: 50px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+footer a{
+   text-decoration: none;
+   color: #e2e7e7;
+}
+.footer-panel2{
+   height: 300px;
+   background-color: #151e29;
+   color: #fff;
 }
